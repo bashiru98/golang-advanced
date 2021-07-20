@@ -8,39 +8,39 @@ if you haven't completed the previous exercise you can use the code from Module0
 
 at the end of this module , your project should look like that:
 
+```
 ├── README.md
 
 ├── cmd
 
-│  ├── __debug_bin
-
-│  └── main.go
+   └── main.go
 
 ├── configs
 
-│  └── db.env
+   └── app.env
 
 ├── go.mod
 
 ├── go.sum
 
-└── internal
+├── internal
 
-  ├── routes
+  └── routes
 
-  │  └── routes.go
+     └── routes.go
 
   └── users
 
-​    ├── db
+​    └── db
 
-​    │  └── db.go
+​       └── db.go
 
-​    ├── service
+​    └── service
 
-​    │  ├── user.service.go
+​       └── user.service.go
 
 ​    └── user.go
+```
 
 ## Getting started 
 
@@ -55,7 +55,7 @@ docker run -p 3306:3306 -p 33060:33060 --name mysqldb -v ~/mysql:/var/lib/mysql 
 
 ### Adding db configuration file
 
-1. create a file named db.env and place it under configs dir as outlined above , this file should have the following properties:
+1. create a file named app.env and place it under configs dir as outlined above , this file should have the following properties:
 
 ```bash
 MYSQL_DATABASE = users_db  
@@ -111,4 +111,3 @@ bcrypt.CompareHashAndPassword(not encrypted, encrypted password)
 make sure that your endpoints return the correct results
 
 you can use curl or postman, to test your endpoints
-

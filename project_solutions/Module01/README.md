@@ -4,8 +4,9 @@
 
 In this lab you will be creating your first basic http service
 
-at the end of this module , your project should look like that:
+at the end of this module , your project should look like this:
 
+```
 ├── README.md
 
 ├── cmd
@@ -19,23 +20,19 @@ at the end of this module , your project should look like that:
   └── routes
 
 ​    └── routes.go
+```
 
 ## Getting started
 
 ### Creating a module
 
-1. create a module for your go project ,please note that you should choose the username for repo that you will commit to. from the root directory execute:
+1. create a module for your go project - please note that you should choose the username for repo that you will commit to. From the root directory execute:
 
 ```bash
 $ go mod init github.com/<someuser>/gameserver
 ```
 
-2. optional you can already create your github repo to commit to,so first go to GitHub and create your repo , then execute the following:
-
-```bash
-$ git init github.com/<someuser>/gameserver
-$ git remote add origin github.com/<someuser>/gameserver
-```
+2. Optional - you can use an existing github repo or create one (if you want to persist your code to GH); to do so, easiest way to accomplish is using VS Code Git integration options (initialize repo and publish)
 
 ### Adding Routes
 
