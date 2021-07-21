@@ -7,19 +7,17 @@ In this lab you will be creating your first basic http service
 at the end of this module , your project should look like this:
 
 ```
-├── README.md
-
 ├── cmd
 
-│  └── main.go
+   └── main.go
 
 ├── go.mod
 
 └── internal
 
-  └── routes
+   └── routes
 
-​    └── routes.go
+      └── routes.go
 ```
 
 ## Getting started

@@ -9,8 +9,6 @@ if you haven't completed the previous exercise you can use the code from Module0
 at the end of this module , your project should look like that:
 
 ```
-├── README.md
-
 ├── cmd
 
    └── main.go

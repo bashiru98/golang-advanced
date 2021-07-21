@@ -10,39 +10,41 @@ if you haven't completed the previous exercise you can use the code from Module0
 
 at the end of this module , your project should look like that:
 
+```
 ├── cmd
 
-│  └── main.go
+   └── main.go
 
 ├── configs
 
-│  └── app.env
+   └── app.env
 
 ├── go.mod
 
 ├── go.sum
 
-└── internal
+├── internal
 
-  ├── routes
+   └── routes
 
-  │  └── routes.go
+      └── routes.go
 
-  └── users
+   └── users
 
-​    ├── db
+​      └── db
 
-​    │  └── db.go
+​         └── db.go
 
-​    ├── service
+​      └── service
 
-​    │  ├── user.service.go
+​         └── user.service.go
 
-​    │  ├── user.service_test.go
+​         └── user.service_test.go
 
-​    │  └── users.service.repo.go
+​         └── users.service.repo.go
 
-​    └── user.go
+​      └── user.go
+```
 
 ## Getting started 
 

@@ -9,8 +9,6 @@ if you haven't completed the previous exercise you can use the code from Module0
 at the end of this module , your project should look like that:
 
 ```
-├── README.md
-
 ├── cmd
 
    └── main.go
@@ -21,17 +19,17 @@ at the end of this module , your project should look like that:
 
 ├── internal
 
-  └── routes
+   └── routes
 
-     └── routes.go
+      └── routes.go
 
-  └── users
+   └── users
 
-​    └── service
+​      └── service
 
-​       └── user.service.go
+​         └── user.service.go
 
-​    └── user.go
+​      └── user.go
 ```
 
 ## Getting started

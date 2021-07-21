@@ -12,15 +12,14 @@ the game service is a simple service that just act as a mediator between game cl
 
 at this point you can take the project from the start directory , it contains everything we did so far in the labs , and provides the neccessary files as outlined here:
 
-├── README.md
-
+```
 ├── cmd
 
-│  └── main.go
+   └── main.go
 
 ├── configs
 
-│  └── app.env
+   └── app.env
 
 ├── go.mod
 
@@ -28,57 +27,56 @@ at this point you can take the project from the start directory , it contains ev
 
 ├── internal
 
-│  ├── games
+   └── games
 
-│  │  ├── game.go
+      └── game.go
 
-│  │  ├── gamemanager.go
+      └── gamemanager.go
 
-│  │  ├── gamemessages.go
+      └── gamemessages.go
 
-│  │  ├── gamesession.go
+      └── gamesession.go
 
-│  │  ├── gamesutils.go
+      └── gamesutils.go
 
-│  │  ├── player.go
+      └── player.go
 
-│  │  ├── service
+      └── service
 
-│  │  │  └── game.service.go
+         └── game.service.go
 
-│  │  └── utils
+   └── routes
 
-│  ├── routes
+      └── routes.go
 
-│  │  └── routes.go
+   └── users
 
-│  └── users
+      └── auth
 
-│    ├── auth
+         └── auth.go
 
-│    │  ├── auth.go
+         └── token.go
 
-│    │  └── token.go
+      └── db
 
-│    ├── db
+         └── db.go
 
-│    │  └── db.go
+      └── service
 
-│    ├── service
+         └── user.service.go
 
-│    │  ├── user.service.go
+         └── user.service.repo.go
 
-│    │  ├── user.service.repo.go
+         └── user.service_test.go
 
-│    │  └── user.service_test.go
+      └── user.go
 
-│    └── user.go
+├── keys
 
-└── keys
+   └── app.rsa
 
-  ├── app.rsa
-
-  └── app.rsa.pub
+   └── app.rsa.pub
+```
 
 ## Getting started 
 
