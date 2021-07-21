@@ -1,0 +1,14 @@
+[
+    {
+        "title": "War and Peace",
+        "subtitle": "A story about War and Peace",
+        "author": "Fyodor Dostoevsky",
+        "published": "1869"
+    },
+    {
+        "title": "The Hitchhiker's Guide to the Galaxy",
+        "subtitle": "A zany sci-fi comedy",
+        "author": "Douglas Adams",
+        "published": "1979"
+    }
+]
